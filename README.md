@@ -5,7 +5,9 @@ Java-8 , Springboot, Maven,  Docker
 How to run project ?
 
 mvn clean package
+
 docker build -f Dockerfile -t migroscouriertracker .
+
 docker run -p 8080:8080 migroscouriertracker
 
 
