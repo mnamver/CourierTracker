@@ -1,8 +1,11 @@
 # CourierTracker
-Tech Stack : 
+
+Used singleton and builder dizayn pattern. 
+
+# Tech Stack : 
 Java-8 , Springboot, Maven,  Docker
 
-How to run project ?
+# How to run project ?
 
 mvn clean package
 
@@ -11,7 +14,7 @@ docker build -f Dockerfile -t migroscouriertracker .
 docker run -p 8080:8080 migroscouriertracker
 
 
-how to publish courier location :
+# how to publish courier location ?
 
 http://localhost:8080/courier/location
 
@@ -24,6 +27,6 @@ http://localhost:8080/courier/location
 }
 
 
-how to see total distance : 
+# how to see total distance ?
 
 http://localhost:8080/courier/total-distance/13
